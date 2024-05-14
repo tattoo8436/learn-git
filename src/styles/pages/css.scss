@@ -1,0 +1,146 @@
+@keyframes move {
+    0% {
+        width: 0;
+        height: 0;
+    }
+
+    100% {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+.css {
+    height: 150vh;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__input {
+        accent-color: green;
+    }
+
+    .container {
+        width: 500px;
+        padding: 10px;
+        border: 1px solid #ccc;
+
+        .image {
+            height: 300px;
+
+            img {
+                //object-fit: fill;
+            }
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: green;
+            column-count: 2;
+            column-fill: balance;
+            column-gap: 0px;
+        }
+
+        h3 {
+            &::before {
+                content: 'Haha';
+            }
+        }
+
+        .display {
+            width: 200px;
+            height: 300px;
+            border: 2px solid green;
+            display: flex;
+            gap: 10px;
+
+            &__child {
+                border: 2px solid orange;
+                flex: 1;
+                align-content: center;
+                justify-items: center;
+            }
+
+            .child1 {
+                order: 2;
+            }
+
+        }
+
+        .float {
+            font-family: Arial, Helvetica, sans-serif;
+
+            span {
+                float: left;
+            }
+        }
+
+        .grid {
+            display: grid;
+            border: 2px solid green;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+            background-color: #ccc;
+
+            &__item {
+                border: 2px solid orange;
+
+            }
+
+            .item1 {
+                grid-column: span 2;
+                background-color: red;
+            }
+
+            .item2 {
+                grid-column: span 1;
+                background-color: transparent;
+            }
+        }
+
+        .animation {
+            background-color: pink;
+            animation: move 2s linear infinite both alternate;
+
+        }
+
+        .position {
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            border: 2px solid #d63131;
+            position: relative;
+            overflow: auto;
+
+            .position1 {
+                height: 500px;
+                color: #fff;
+
+                .header {
+                    background-color: #3d67a2;
+                    position: relative;
+                    bottom: 10px;
+                }
+
+                .footer {
+                    background-color: #44cc7b;
+                    width: 100px;
+                    resize: both;
+                    overflow: auto;
+                    rotate: 30deg;
+                    scale: .8;
+                }
+            }
+        }
+
+        .draw {
+            width: 300px;
+            height: 300px;
+            border: 5px solid #288553;
+            outline: 5px solid #d061b0;
+        }
+    }
+}
