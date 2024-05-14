@@ -13,6 +13,10 @@ const Home = () => {
       <Button type="primary" onClick={() => handleNavigate("/css")}>
         CSS
       </Button>
+
+      <Button type="primary" onClick={() => handleNavigate("/git")}>
+        Git
+      </Button>
     </div>
   );
 };

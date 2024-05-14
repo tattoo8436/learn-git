@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { CSS, Home } from "../pages";
+import { CSS, Git, Home } from "../pages";
 
 const AppRouter = () => {
   return (
@@ -7,6 +7,7 @@ const AppRouter = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/css" element={<CSS />} />
+        <Route path="/git" element={<Git />} />
       </Routes>
     </BrowserRouter>
   );
