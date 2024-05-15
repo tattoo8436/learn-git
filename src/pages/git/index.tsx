@@ -15,6 +15,7 @@ const Git = () => {
         <p>Commit A4</p>
         <p>Commit A5</p>
         <p>Commit A6</p>
+        <p>Commit A7</p>
       </div>
 
       <div>
