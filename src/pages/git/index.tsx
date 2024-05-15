@@ -9,6 +9,11 @@ const Git = () => {
       <p>Commit develop 2</p>
       <p>Commit html 2</p>
       <p>Commit html 3</p>
+
+      <div>
+        <p>This is learn git 2</p>
+        <p>Commit v2 html 1</p>
+      </div>
     </div>
   );
 };
