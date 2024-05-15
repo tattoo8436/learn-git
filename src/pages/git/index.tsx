@@ -13,6 +13,7 @@ const Git = () => {
       <div>
         <p>This is learn git 2</p>
         <p>Commit v2 html 1</p>
+        <p>Commit v2 html 2</p>
       </div>
     </div>
   );
