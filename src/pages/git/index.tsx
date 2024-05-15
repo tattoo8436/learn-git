@@ -6,6 +6,7 @@ const Git = () => {
       <h1>Git</h1>
       <div>
         <p>Commit A1</p>
+        <p>Commit A2</p>
       </div>
     </div>
   );
