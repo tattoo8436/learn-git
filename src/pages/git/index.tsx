@@ -7,7 +7,7 @@ const Git = () => {
       <div>
         <p>1.1</p>
         <p>2.1</p>
-        <p>3.1234</p>
+        <p>3.123</p>
 
         <p>Hehe</p>
         <p>Hoho</p>
