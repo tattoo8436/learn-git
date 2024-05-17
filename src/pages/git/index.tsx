@@ -9,6 +9,7 @@ const Git = () => {
         <p>B1</p>
         <p>B2</p>
         <p>B3</p>
+        <p>B4</p>
       </div>
     </div>
   );
