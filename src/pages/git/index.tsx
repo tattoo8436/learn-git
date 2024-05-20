@@ -11,6 +11,7 @@ const Git = () => {
 
         <p>Hehe</p>
         <p>Hoho</p>
+        <p>Hihi</p>
       </div>
     </div>
   );
