@@ -1,19 +1,10 @@
-import React from "react";
+import "./styles.css";
 
 const Git = () => {
   return (
     <div style={{ padding: "2rem" }}>
       <h1>Git</h1>
-      <div>
-        <p>1.1</p>
-        <p>2.1</p>
-        <p>3.12345</p>
-        <p>4.12</p>
-
-        <p>Hehe</p>
-        <p>Hoho</p>
-        <p>Hihi</p>
-      </div>
+      <div></div>
     </div>
   );
 };
