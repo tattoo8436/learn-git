@@ -5,8 +5,8 @@ const Git = () => {
     <div style={{ padding: "2rem" }}>
       <h1>Git</h1>
       <div>
-        <p>1.123</p>
-        <p>2.1</p>
+        <p>1</p>
+        <p>2</p>
       </div>
     </div>
   );
