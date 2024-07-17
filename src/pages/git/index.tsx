@@ -1,6 +1,10 @@
 import "./styles.css";
 
 const Git = () => {
+  const test1 = () => {
+    console.log("1");
+  };
+
   return (
     <div style={{ padding: "2rem" }}>
       <h1>Git</h1>
