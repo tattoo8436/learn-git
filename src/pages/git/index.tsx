@@ -8,7 +8,7 @@ const Git = () => {
   };
 
   const test2 = () => {
-    console.log("12");
+    console.log("14");
   };
 
   return (
