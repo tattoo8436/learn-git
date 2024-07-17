@@ -3,6 +3,7 @@ import "./styles.css";
 const Git = () => {
   const test1 = () => {
     console.log("1");
+    console.log("2");
   };
 
   return (
