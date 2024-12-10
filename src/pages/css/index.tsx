@@ -1,7 +1,9 @@
+import "./styles.css";
+
 const CSS = () => {
   return (
     <div className="css">
-      <h2 className="css__title">CSS</h2>
+      <h1 className="css__title">CSS</h1>
 
       <div className="css__content">
         {/* accent-color */}
